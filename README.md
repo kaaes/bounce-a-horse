@@ -1,4 +1,4 @@
-bounce-a-horse
+Bounce-A-Horse
 ==============
 
-One-button game made during MozFest 2012
+A one button game hacked together during MozFest 2012 (Ok, I cleaned it a bit on my way back to Stockholm :)

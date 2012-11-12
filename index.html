@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bounce-A-Horse</title>
+    <link href="http://fonts.googleapis.com/css?family=Mate|Alfa%20Slab%20One&subset=latin" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Bounce-A-Horse</h1>
+    <p>Press space - hold down to increase the speed - release!</p>
+    <div id="game">
+      <canvas id="board"></canvas>
+      <div id="bangs">
+        <span class="wanted-bang"></span><span class="current-bang"></span>
+      </div>
+    </div>
+    <img id="head" src="img/horse.png" />
+    <img id="head2" src="img/horse2.png" />
+    <img id="head3" src="img/horse3.png" />
+    <script src="game.js"></script>
+    <script>
+    (function() {
+      document.body.onload = function() {
+        var game = new Game();
+        game.init();
+      }
+    })();
+    </script>
+  </body>
+</html>
