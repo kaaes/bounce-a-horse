@@ -19,10 +19,11 @@
     <img id="head3" src="img/horse3.png" />
     <script>
     (function() {
-      document.body.onload = function() {
+      function init() {
         var game = new Game();
         game.init();
       }
+      document.body.onload = init;
     })();
     </script>
     <script src="game.js"></script>
