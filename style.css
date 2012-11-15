@@ -8,6 +8,12 @@ html, body {
   color: #eee;
 }
 
+.forkme {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 h1 {
   color: #eee;
   font-size: 60px;
@@ -50,6 +56,6 @@ canvas {
   z-index: 1;
 }
 
-img {
+#game img {
   display: none;
 }

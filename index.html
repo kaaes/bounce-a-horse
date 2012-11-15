@@ -7,16 +7,19 @@
   </head>
   <body>
     <h1>Bounce-A-Horse</h1>
+    <a class="forkme" href="https://github.com/kaaes/bounce-a-horse">
+      <img src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub">
+    </a>
     <p>Press space &ndash; hold down to increase the speed &ndash; release and match the number!</p>
     <div id="game">
       <canvas id="board"></canvas>
       <div id="bangs">
         <span class="wanted-bang"></span><span class="current-bang"></span>
       </div>
+      <img id="head" src="img/horse.png" />
+      <img id="head2" src="img/horse2.png" />
+      <img id="head3" src="img/horse3.png" />
     </div>
-    <img id="head" src="img/horse.png" />
-    <img id="head2" src="img/horse2.png" />
-    <img id="head3" src="img/horse3.png" />
     <script src="game.js"></script>
     <script>
     (function() {
